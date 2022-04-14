@@ -4,7 +4,6 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Build
       - run: |
           ./myscript.ps1
         shell: pwsh
